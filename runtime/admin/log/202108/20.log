@@ -1,0 +1,13 @@
+[2021-08-20T00:45:11+08:00][sql] CONNECT:[ UseTime:0.035140s ] mysql:host=127.0.0.1;port=3306;dbname=tptp;charset=utf8
+[2021-08-20T00:45:11+08:00][sql] SHOW FULL COLUMNS FROM `hw_order` [ RunTime:0.015682s ]
+[2021-08-20T00:45:11+08:00][sql] SELECT * FROM `hw_order` WHERE  `status` = 11 ORDER BY `id` ASC LIMIT 3 [ RunTime:0.000525s ]
+[2021-08-20T00:45:25+08:00][sql] CONNECT:[ UseTime:0.002411s ] mysql:host=127.0.0.1;port=3306;dbname=tptp;charset=utf8
+[2021-08-20T00:45:25+08:00][sql] SHOW FULL COLUMNS FROM `hw_order` [ RunTime:0.003480s ]
+[2021-08-20T00:45:25+08:00][sql] SELECT * FROM `hw_order` WHERE  `status` = 11 ORDER BY `id` ASC LIMIT 3 [ RunTime:0.000302s ]
+[2021-08-20T00:45:29+08:00][sql] CONNECT:[ UseTime:0.001896s ] mysql:host=127.0.0.1;port=3306;dbname=tptp;charset=utf8
+[2021-08-20T00:45:29+08:00][sql] SHOW FULL COLUMNS FROM `hw_order` [ RunTime:0.001717s ]
+[2021-08-20T00:45:29+08:00][sql] INSERT INTO `hw_order` SET `order_sn` = '20210819' , `user_id` = 56 [ RunTime:0.012483s ]
+[2021-08-20T00:45:29+08:00][sql] SELECT * FROM `hw_order` WHERE  `id` < 10 [ RunTime:0.000434s ]
+[2021-08-20T01:42:01+08:00][error] [0]syntax error, unexpected ':', expecting ')'[/home/wwwroot/tp/app/admin/controller/Index.php:44]
+[2021-08-20T01:46:06+08:00][error] [0]syntax error, unexpected ':', expecting ')'[/home/wwwroot/tp/app/admin/controller/Index.php:46]
+[2021-08-20T01:52:59+08:00][error] [0]syntax error, unexpected ':', expecting ')'[/home/wwwroot/tp/app/admin/controller/Index.php:46]
